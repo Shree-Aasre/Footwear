@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+#outerVisibleFrame {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: transparent;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    gap: 10px;
+}
+
+#outerVisibleFrame h1 {
+    font-size: 6vw;
+    font-weight: 100;
+
+}
+
+#oframe {
+    height: 100%;
+    width: 90%;
+    background-color: transparent;
+    border: 11px solid #fff;
+    border-radius: 45px;
+    padding: 10px;
+
+}
+
+nav {
+    justify-self: center;
+    padding: 2px 5px 2px 5px;
+    border-radius: 50px;
+    background-color: #fff;
+}
+
+nav #btn {
+    background-color: #fff;
+    text-align: center;
+    color: #000;
+    border-color: transparent;
+    border-radius: 50px;
+    font-size: 2vw;
+    padding: 5px 15px 5px 15px;
+    font-style: italic;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+nav #btn:hover {
+    background-color: black;
+    text-align: center;
+    color: #fff;
+    border-radius: 50px;
+    font-size: 2vw;
+    padding: 5px 15px 5px 15px;
+}
+
+main {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    background-color: #d9d4d4;
+    padding-top: 5vh;
+
+
+}
+
+#iframe {
+
+    height: 100%;
+    width: 90%;
+    background-color: #d9d4d4;
+    border: 11px solid transparent;
+    border-radius: 45px;
+    padding: 15px;
+}
+
+#page1 {
+    height: 100%;
+    width: 100%;
+    padding: 90px 0px 0px 0px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page1 h1 {
+    text-align: center;
+    background-color: transparent;
+    font-size: 11vh;
+}
+
+#page1 h3 {
+    text-align: center;
+    background-color: transparent;
+    padding: 15px 0px;
+}
+
+#page1 #contactWithMe {
+    background-color: black;
+    padding: 16px 15px;
+    color: #fff;
+    font-size: 21px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
+
+/* page2 */
+
+
+#page2 {
+    height: 15vh;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* page3 */
+
+#page3 {
+    height: 100%;
+    width: 100%;
+    padding: 30px 0px 0px 0px;
+    background-color: transparent;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#page3 h1 {
+    text-align: center;
+    background-color: transparent;
+    font-size: 11vh;
+}
+
+#page3 h3 {
+    text-align: center;
+    background-color: transparent;
+    padding: 15px 0px;
+}
+
+#page3 #contactWithMe {
+    background-color: black;
+    padding: 16px 15px;
+    color: #fff;
+    font-size: 21px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+}
