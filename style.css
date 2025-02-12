@@ -103,7 +103,7 @@ main {
 #page1 h1 {
     text-align: center;
     background-color: transparent;
-    font-size: 18vw;
+    font-size: 300%;
 }
 
 #page1 h3 {
