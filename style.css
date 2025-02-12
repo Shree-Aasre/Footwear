@@ -152,7 +152,7 @@ main {
 #page3 h1 {
     text-align: center;
     background-color: transparent;
-    font-size: 11vh;
+    font-size: 300%;
 }
 
 #page3 h3 {
